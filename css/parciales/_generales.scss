@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color_blue_main_bg;
+    font-family: $font;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;   
+}
+
+/*
+@media screen and (width >= 768px ) {
+    .card {
+        width: 350px;
+    }
+}*/
+
+/* HOVER BIEN HECHO
+@media (hover:hover) {
+    .card:hover .icon {
+        opacity: 1;
+    }
+
+    .card:hover::before {
+        opacity: 1;
+    }
+} */

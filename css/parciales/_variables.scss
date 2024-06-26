@@ -1,0 +1,29 @@
+$color_blue_soft: #8BACD9;
+$color_blue_main_bg: #0D192C;
+$color_blue_card_bg: #15263F;
+$color_blue_line: #2E405A;
+$color_cyan: #00FFF8;
+$color_white: #FFFFFF;
+
+$font: "Outfit", sans-serif;
+
+@mixin font_heading {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+@mixin font_body {
+    color: $color_blue_soft;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+@mixin font_caption {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@mixin font_caption_bold {
+    font-size: 16px;
+    font-weight: 600;
+}
